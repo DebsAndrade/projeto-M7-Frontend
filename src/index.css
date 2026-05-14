@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 265 22% 25%;       /* #39324D navy purple */
+    --card: 0 0% 100%;
+    --card-foreground: 265 22% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 265 22% 25%;
+    --primary: 348 72% 45%;          /* Crimson #C22557 */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 345 100% 95%;       /* Light Pink #FFE8EF */
+    --secondary-foreground: 265 22% 37%;
+    --muted: 340 60% 97%;
+    --muted-foreground: 270 15% 56%;
+    --accent: 345 100% 95%;
+    --accent-foreground: 265 22% 25%;
+    --destructive: 0 72% 58%;
+    --border: 340 40% 87%;           /* #EDCDD6 */
+    --input: 340 40% 87%;
+    --ring: 348 72% 45%;             /* Crimson */
+    --radius: 0.5rem;
+  }
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: #FFF5F7;
+  color: hsl(var(--foreground));
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
