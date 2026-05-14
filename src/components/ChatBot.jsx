@@ -109,12 +109,10 @@ export function ChatBot() {
         t.title.toLowerCase().includes(searchTitle) || searchTitle.includes(t.title.toLowerCase())
       )
       if (target) {
-        console.log('Apagando tarefa...')
         await deleteTask(target.id)
         notificarMudancaDeTarefas()
         return baseText + '\n\n✅ Tarefa apagada com sucesso.'
       } else {
-        console.log('Tarefa não encontrada para apagar.')
         return baseText + '\n\n⚠️ Não encontrei nenhuma tarefa com esse nome para apagar.'
       }
     }
