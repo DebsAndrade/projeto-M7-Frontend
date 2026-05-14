@@ -2,7 +2,7 @@
 
 Frontend TypeScript puro (Vanilla TS + Vite) para gerenciar usuários, tarefas e tags.
 
-**Repositório**: https://github.com/DebsAndrade/projeto_api_frontend
+**Repositório**: https://github.com/DebsAndrade/projeto-M7-Frontend
 **Autor**: Débora Andrade
 
 ## 🛠️ Tecnologias
