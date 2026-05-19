@@ -42,7 +42,7 @@ export const createTag = (name) => request('/tags', { method: 'POST', body: JSON
 export const deleteTag = (id) => request(`/tags/${id}`, { method: 'DELETE' })
 
 // ==================== CHAT (GEMINI) ====================
-// retorna o fetch cru (não faz parse — é streaming SSE)
+// retorna o fetch cru (não faz parse — é streaming)
 export const sendChatMessage = (message, history) =>
   fetch(`${BASE_URL}/chat`, {
     method: 'POST',
